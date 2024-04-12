@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Jack</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<style>
+
+  .section{
+    margin-top: 20px;
+    
+  }
+.card {
+  box-shadow: 0 4px 4px 0 rgba(255, 255, 255, 0.315);
+  background-color: rgb(255, 255, 255);
+  max-width: 350px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+.divi{
+  padding: 10px;
+}
+.h2{
+  font-style:initial;
+}
+</style>
+<body style="background-color: green;">
+
+  <div class="section"> 
+    <div class="card">
+      <div class="divi">
+      <h1>BLACK JACK</h1>
+      <img src="bj.png" style="width:80%">
+      <h2 id="word" >Ready To Play ?</span></h2>
+      <h3>Cards: <span id="demo1"></span></h3>
+      <h3 id="total">Sum: </span></h3>
+      <button id="add" onclick="randomfunction()"  type="button" class="btn btn-primary btn-block btn-lg"  >START</button> <br>
+      <button id="addrandom" onclick="addvalue()"  type="button" class="btn btn-info btn-block btn-lg"  >DRAW CARD</button> <br>
+      
+     
+      <a href="game.html">
+        <button id="so" type="button" class="btn btn-warning btn-block btn-lg">NEW GAME</button>
+      </a>
+      
+    
+      </div>
+    </div>
+    </div>
+    <script src="game3.js"></script> 
+
+    <!-- <p> 2 Random Values: </p>
+    <div>
+        <span id="demo1"></span>
+      </div>
+    <button id="add" onclick="randomfunction()">Start game</button>
+    <button id="addrandom" onclick="addvalue()">Add value</button>
+    <p id="total">Sum</p>
+    <p id="word"></p>
+    <a href="game.html">
+        <button id="so" type="button" class="btn btn-danger btn-block btn-lg">new game</button>
+      </a>
+    <script src="game3.js"></script> -->
+</body>
+</html>
